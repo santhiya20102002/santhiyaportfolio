@@ -85,14 +85,12 @@
   padding:30px 20px 30px 1100px
 }
 @media (max-width: 768px) {
-  .projects-section .section-title .contact{
+  .projects-section .section-title{
     font-size: 2.2rem;
   }
 
   .project-card {
     min-width: 240px;
   }
-  .contact-info{
-     min-width: 240px;
-  }
+  
 }

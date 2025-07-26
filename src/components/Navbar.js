@@ -47,8 +47,8 @@ const Navbar = () => {
                 Resume
               </a>
             </li>
-            <div style={{ display: "flex", gap: "20px", paddingLeft: "700px" }}>
               <li>
+                
                 <a
                   href="https://github.com/santhiya20102002"
                   target="_blank"
@@ -76,8 +76,19 @@ const Navbar = () => {
                   <i className="bi bi-envelope-fill fs-5 text-light"></i>
                 </a>
               </li>
-              
-            </div>
+            
+      
+         <li>
+          <i className="bi bi-telephone-fill me-2 text-info"></i>
+          +91 9994067710
+         </li>
+         <li>
+          <i className="bi bi-geo-alt-fill me-2 text-danger"></i>
+          Coimbatore
+        </li>
+        
+     
+          
           </ul>
         </div>
       </div>

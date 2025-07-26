@@ -24,7 +24,7 @@ const Projects = () => {
   ];
 
   return (
-    <>
+   
       <section id="projects" className="projects-section fade-in">
         <div className="container">
           <h2 className="section-title">Projects</h2>
@@ -41,19 +41,8 @@ const Projects = () => {
           </div>
         </div>
       </section>
-      <section id="contact container-fluid" >
-        <div className='contact-info'>
-         <div>
-          <i className="bi bi-telephone-fill me-2 text-info"></i>
-          +91 9994067710
-         </div>
-         <div>
-          <i className="bi bi-geo-alt-fill me-2 text-danger"></i>
-          Coimbatore
-        </div>
-        </div>
-      </section>
-    </>
+     
+   
   );
 };
 
