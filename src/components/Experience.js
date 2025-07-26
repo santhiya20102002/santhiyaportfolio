@@ -4,10 +4,10 @@ import './Experience.css'; // Create this CSS file
 const Experience = () => {
   return (
     <section id="experience" className="experience-section fade-in">
-      <div className="container">
+      <div className="container exp">
         <h2 className="section-title">Experience</h2>
         <div className="experience-wrapper glass-box">
-          <div className="mb-4">
+          <div className="mb-4 expcontent">
             <h1 className="text-highlight">Creative Engineer Intern</h1>
             <p className="text-muted mb-1"><strong>Company:</strong> Amphisoft Technologies Pvt Ltd</p>
             <p className="text-muted"><strong>Duration:</strong> 2024 (7 Months)</p>
