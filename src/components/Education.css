@@ -1,0 +1,52 @@
+.education-section {
+  padding: 50px 0;
+  color: #fff;
+  background-color: transparent;
+  position: relative;
+  z-index: 1;
+}
+
+.education-carousel {
+  display: flex;
+  gap: 2rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  -webkit-overflow-scrolling: touch;
+  animation: slideInLeft 1s ease forwards;
+  scrollbar-width: thin;
+  scrollbar-color: #00d4ff transparent;
+}
+
+.education-carousel::-webkit-scrollbar {
+  height: 6px;
+}
+
+.education-carousel::-webkit-scrollbar-thumb {
+  background-color: #00d4ff;
+  border-radius: 10px;
+}
+
+.education-carousel::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.education-box {
+  min-width: 280px;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  transition: transform 0.3s ease;
+  word-wrap: break-word;
+  width:410px;
+}
+
+.education-box:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .education-box {
+    min-width: 240px;
+  }
+}

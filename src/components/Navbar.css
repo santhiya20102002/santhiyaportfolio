@@ -1,0 +1,99 @@
+/* Navbar Container */
+.navbar {
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(8px); /* Blur background */
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+}
+
+/* Brand / Logo */
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ffffff !important;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Navbar Links Container */
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+/* Nav Link Styling */
+.navbar-nav .nav-link {
+  color: #f8f9fa;
+  font-weight: 500;
+  position: relative;
+  padding: 0.5rem 0;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Hover underline effect */
+.navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background-color: #00d4ff;
+  transition: width 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link.active::after {
+  width: 100%;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #00d4ff;
+  transform: translateY(-2px);
+}
+
+/* Mobile toggle customization */
+.navbar-toggler {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* Hamburger Icon (optional animation) */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255,255,255,0.9%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Responsive Stack */
+@media (max-width: 991px) {
+  .navbar-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 1rem;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.7rem 0;
+  }
+}
+
+
+/*  */
+.navbar.scrolled {
+  background-color: #000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
