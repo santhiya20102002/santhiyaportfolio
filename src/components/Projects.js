@@ -41,8 +41,8 @@ const Projects = () => {
           </div>
         </div>
       </section>
-      <section  >
-        <div style={{ backgroundColor: "black",gap:"30px",display:"flex",padding:"30px 20px 30px 1100px"}}>
+      <section id="contact container-fluid" >
+        <div className='contact-info'>
          <div>
           <i className="bi bi-telephone-fill me-2 text-info"></i>
           +91 9994067710
