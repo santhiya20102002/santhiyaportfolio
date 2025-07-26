@@ -14,13 +14,14 @@ const Projects = () => {
       description:
         'Crafted a fully adaptive and visually appealing replica of the boAt lifestyle website, showcasing proficiency in modern front-end development. The site includes features such as shopping cart integration, input validation, image submission, and secure user login. Focused on delivering an intuitive browsing experience with attention to responsiveness, performance, and user accessibility.',
       tech: ['JavaScript', 'HTML', 'CSS',"NodeJS",'MongoDB','ExpressJS','ReactStrap'],
-      deploy:"https://samsungclone-pink.vercel.app/"},
+      deploy:"https://boatwebsiteclone.vercel.app/"},
     
     {
       title: 'Get Store',
       description:
         'It provides users with a modern shopping experience. It features a clean,responsive UI with product listings, a search functionality, and a cart.Implemented user authentication (login/signup), allowing users to place orders and manage their profiles, and created an admin panel for product and order management, product images and prices are dynamically displayed.',
       tech: ['HTML', 'CSS', 'JavaScript','ReactJS'],
+      deploy:"https://get-store-zeta.vercel.app/"
     },
   ];
 
