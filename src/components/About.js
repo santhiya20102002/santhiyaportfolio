@@ -8,7 +8,7 @@ const About = () => {
       <div className="container">
         <h2 className="section-title">About Me</h2>
         <div className="row align-items-center justify-content-center">
-          <div className="col-lg-7">
+          <div className="col-lg-6">
             <div className="about-text">
               <p>👋 Hello! I'm <strong>Santhiya</strong>, a <span>Fullstack Developer</span> passionate about crafting clean, modern user interfaces.</p>
               <p>🎓 I completed my <strong>B.E. in ECE</strong> from Sri Eshwar College of Technology with a CGPA of 9.02.</p>
