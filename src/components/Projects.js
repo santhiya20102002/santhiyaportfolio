@@ -23,6 +23,13 @@ const Projects = () => {
       tech: ['HTML', 'CSS', 'JavaScript','ReactJS'],
       deploy:"https://get-store-zeta.vercel.app/"
     },
+      {
+      title: 'Market Seasonality',
+      description:
+        'The goal of this project is to build a React-based financial analytics dashboard that displays historical market behavior over time using an interactive calendar interface. It visualizes key metrics like:Volatility (how much prices change),Liquidity (how much volume is trade),Performance (gains or losses)',
+      tech: ['HTML', 'CSS', 'JavaScript','ReactJS'],
+      deploy:"https://marketing-theta-murex.vercel.app/"
+    }
   ];
 
   return (
